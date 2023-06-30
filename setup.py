@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='botools',
+    name='bokit',
     version='0.0.2',
-    packages=['botools'],
+    packages=['bokit'],
 )
