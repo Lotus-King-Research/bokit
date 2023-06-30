@@ -1,11 +1,11 @@
 class GPT:
     
-    def __init__(self):
+    def __init__(self, openai_api_key):
         
         import openai
 
         self.openai = openai
-        self.openai.api_key = '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'
+        self.openai.api_key = openai_api_key
         
 
     def context_definition_summary(self):
