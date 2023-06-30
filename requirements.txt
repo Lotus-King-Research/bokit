@@ -1,0 +1,5 @@
+pandas
+signs
+openai
+bophono
+botok
