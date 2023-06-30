@@ -1,13 +1,16 @@
 class TokenStatistics:
-
-    '''Takes in a list of tokens and returns a dataframe with counts, 
-    percentages, and cumulative percentages.'''
     
     def __init__(self):
         
         _ = ''
     
     def dataframe(self, tokens):
+
+        '''Takes in a list of tokens and returns a dataframe with counts, 
+        percentages, and cumulative percentages.
+
+        tokens | list | List of tokens
+        '''
 
         import pandas as pd
         import signs

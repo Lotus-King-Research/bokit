@@ -1,6 +1,6 @@
 class Translate:
 
-    '''Takes in Tibetan string and returns English translation.'''
+    '''For translating automatically from Tibetan to English.'''
 
     def __init__(self):
 
@@ -17,6 +17,16 @@ class Translate:
                   model='NO',
                   debug=False):
         
+        '''Takes in Tibetan string and returns English translation.
+        
+        input_sentence | str | Tibetan string
+        level_of_explanation | int | 0, 1, or 2
+        language | str | 'tib' or 'eng-tib
+        model | str | 'NO' or 'YES'
+        debug | bool | If True, prints response status code and content.
+        
+        '''
+
         url = "https://linguae-dharmae.net/api/translation/"
         
         headers = {"Content-type": "application/json"}

@@ -1,6 +1,6 @@
 class Phonetize:
 
-    '''Takes in Tibetan string and returns phonetic transcription.'''
+    '''Tools for phonetizing Tibetan strings.'''
 
     def __init__(self):
 
@@ -8,6 +8,11 @@ class Phonetize:
         self.bophono = bophono
 
     def phonetize(self, string):
+
+        '''Takes in Tibetan string and returns phonetic transcription.
+        
+        string | str | Tibetan string
+        '''
 
         options = {'aspirateLowTones': False}
         phon = self.bophono.UnicodeToApi(schema="LKT", options=options)

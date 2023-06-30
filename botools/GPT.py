@@ -40,10 +40,19 @@ class GPT:
         print(summary)
 
     def query_chat(self,
-              prompt,
-              context='', 
-              model="gpt-4-0613", 
-              max_tokens=100):
+                   prompt,
+                   context='', 
+                   model="gpt-4-0613", 
+                   max_tokens=100):
+        
+        '''Takes in a prompt and returns a response.
+        
+        prompt | str | Prompt to be sent to OpenAI API.
+        context | str | Context to be sent to OpenAI API.
+        model | str | Model to be used by OpenAI API.
+        max_tokens | int | Maximum number of tokens to be returned by OpenAI API.
+        
+        '''
 
         message = [{"role": "user", "content": context + '\n' + prompt}]
 

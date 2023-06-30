@@ -1,6 +1,4 @@
 class Tokenize:
-
-    '''Takes in Tibetan string and returns list of tokens.'''
     
     def __init__(self):
 
@@ -12,6 +10,12 @@ class Tokenize:
         self._wt = WordTokenizer(config=config)
 
     def get_tokens(self, text):
+
+        '''Takes in Tibetan string and returns list of tokens.
+        
+        text | str | Tibetan string
+        
+        '''
 
         tokens = []
         
