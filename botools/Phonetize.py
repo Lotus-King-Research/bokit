@@ -1,4 +1,6 @@
-class Phonetize: 
+class Phonetize:
+
+    '''Takes in Tibetan string and returns phonetic transcription.'''
 
     def __init__(self):
 

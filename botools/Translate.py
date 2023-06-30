@@ -1,5 +1,7 @@
 class Translate:
 
+    '''Takes in Tibetan string and returns English translation.'''
+
     def __init__(self):
 
         import requests

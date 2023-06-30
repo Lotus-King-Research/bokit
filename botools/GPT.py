@@ -1,4 +1,6 @@
 class GPT:
+
+    '''Provides access to several OpenAI endpoints.'''
     
     def __init__(self):
         

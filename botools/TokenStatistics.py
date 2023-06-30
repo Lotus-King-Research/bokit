@@ -1,4 +1,7 @@
 class TokenStatistics:
+
+    '''Takes in a list of tokens and returns a dataframe with counts, 
+    percentages, and cumulative percentages.'''
     
     def __init__(self):
         
