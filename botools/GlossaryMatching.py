@@ -1,4 +1,6 @@
 class GlossaryMatching:
+
+    '''Takes in Tibetan term and returns English.'''
     
     def __init__(self):
         

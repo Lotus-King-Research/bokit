@@ -1,4 +1,6 @@
 class Tokenize:
+
+    '''Takes in Tibetan string and returns list of tokens.'''
     
     def __init__(self):
 
