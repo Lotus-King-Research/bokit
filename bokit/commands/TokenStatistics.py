@@ -4,7 +4,7 @@ class TokenStatistics:
         
         _ = ''
     
-    def dataframe(self, tokens):
+    def query(self, tokens):
 
         '''Takes in a list of tokens and returns a dataframe with counts, 
         percentages, and cumulative percentages.

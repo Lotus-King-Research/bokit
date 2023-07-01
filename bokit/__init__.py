@@ -1,8 +1,13 @@
-from tibetan_tools.Phonetize import Phonetize
-from tibetan_tools.Tokenize import Tokenize
-from tibetan_tools.GlossaryMatching import GlossaryMatching
-from tibetan_tools.Translate import Translate
-from tibetan_tools.TokenStatistics import TokenStatistics
-from tibetan_tools.GPT import GPT
+from bokit.commands.Phonetize import Phonetize
+from bokit.commands.Tokenize import Tokenize
+from bokit.commands.GlossaryMatching import GlossaryMatching
+from bokit.commands.Translate import Translate
+from bokit.commands.TokenStatistics import TokenStatistics
+from bokit.commands.Chat import Chat
+from bokit.commands.OCR import OCR
+from bokit.commands.DictionaryLookup import DictionaryLookup
 
-import utils as utils
+import bokit.utils as utils
+import bokit.workflows as workflows
+
+del commands

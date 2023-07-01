@@ -9,7 +9,7 @@ class Tokenize:
         config = Config(dialect_name="general", base_path=Path.home())
         self._wt = WordTokenizer(config=config)
 
-    def get_tokens(self, text):
+    def query(self, text):
 
         '''Takes in Tibetan string and returns list of tokens.
         

@@ -5,9 +5,10 @@ class Phonetize:
     def __init__(self):
 
         import bophono
+        
         self.bophono = bophono
 
-    def phonetize(self, string):
+    def query(self, string):
 
         '''Takes in Tibetan string and returns phonetic transcription.
         

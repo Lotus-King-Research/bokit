@@ -10,12 +10,12 @@ class Translate:
         self.requests = requests
         self.json = json
 
-    def translate(self,
-                  input_sentence,
-                  level_of_explanation=0,
-                  language='tib', 
-                  model='NO',
-                  debug=False):
+    def query(self,
+              input_sentence,
+              level_of_explanation=0,
+              language='tib', 
+              model='NO',
+              debug=False):
         
         '''Takes in Tibetan string and returns English translation.
         
